@@ -1,0 +1,157 @@
+body {
+  background-color: #1E90FF; /* Dodger Blue */
+  color: #FFD700; /* Gold */
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+html, body {
+  margin: 0;
+}
+.main {
+  margin-left: 7%;
+}
+.titlelogo {
+  margin-top: 1%;
+  margin-bottom: 50px;
+}
+.crop img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.sidenav {
+  height: 100%;
+  width: 7%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 5%;
+  /*background-color: #1E1EFF;*/
+  margin-left: 0;
+  border-right-style: solid;
+  border-color: #FFD700;
+}
+.sidenav a {
+  font-size: 1.2em;
+  color: #FFD700;
+  display: block;
+  padding-bottom: 25px;
+}
+.sidenav a:hover {
+  color: #FFFFFF;
+}
+.sidenav a:visited {
+  color: #FFFFFF;
+}
+a {
+  color: #FFD700;
+}
+a:hover {
+  color: #FFFFFF;
+}
+a:visited {
+  color: #FFFFFF;
+}
+.column {
+  float: left;
+  width: 25%;
+  margin-left: 7%;
+  margin-right: auto;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.profiletxt {
+  text-align: center;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.services-link {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: -3px 5px 5px #333333;
+  margin: 2%;
+}
+img.contact-link {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: -3px 5px 5px #333333;
+  margin: 2%;
+}
+img.about-link {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: -3px 5px 5px #333333;
+  margin: 2%;
+}
+.btn-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.btn-s .btn-c .btn-a {
+  text-align: center;
+  vertical-align: middle;
+}
+img.services-link:active {
+  opacity: 0.25;
+  box-shadow: -3px 3px 3px #000000;
+  transform: translateY(5px);
+}
+img.contact-link:active {
+  opacity: 0.25;
+  box-shadow: -3px 3px 3px #000000;
+  transform: translateY(4px);
+}
+img.about-link:active {
+  opacity: 0.25;
+  box-shadow: -3px 3px 3px #000000;
+  transform: translateY(4px);
+}
+img.services-link:hover {
+  opacity: 0.75;
+}
+img.contact-link:hover {
+  opacity: 0.75;
+}
+img.about-link:hover {
+  opacity: 0.75;
+}
+.footer {
+  background-color: #FFD700;
+  margin-top: 20%;
+  color: #FFFFFF;
+}
+.accreditation {
+  align-items: center;
+}
+.accreditation img {
+  height: 100px;
+  width: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.toe {
+  text-decoration: none;
+}
+.toe:link {
+  color: #FFFFFF;
+}
+.toe:visited {
+  color: #FFFFFF;
+}
+.toe:hover {
+  color: #F5F5F5;
+}
+.toe:focus {
+  color: #FFFFFF;
+}
+.toe:active {
+  color: #FFFFFF;
+}

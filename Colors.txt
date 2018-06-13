@@ -1,0 +1,14 @@
+Color codes
+
+#0047AB Cobalt
+#FF7F00 Orange Color Wheel
+
+#00AFEF Deep Sky Blue (Hoonigan)
+#00FFFF Aqua
+#00FFBF Aquamarine RGB
+#007BA7 Cerulean (Hoonigan)
+#008080 Teal
+#ED215D Luminous Vivid Pink (Hoonigan)
+#F05423 Luminous Vivid Red-Orange (Hoonigan)
+#7F00FF Violet
+#7851A9 Royal Purple

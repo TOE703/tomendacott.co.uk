@@ -1,0 +1,124 @@
+html, body {
+  margin: 0;
+  color: #FFFFFF;
+  background-color: #000000;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.header {
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+h1 {
+  color: #FFFFFF;
+  font-size: 5rem;
+  display: inline-block;
+}
+.marrketing-logo {
+  height: 150px;
+  width: auto;
+}
+.work {
+  color: #000000;
+  background-color: #C0C0C0;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+/*.work-table {
+  display: table;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.wt {
+  display: table-cell;
+}
+.row {
+  display: table-row;
+}*/
+.work-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.work1 .work2 .work3 {
+  text-align: center;
+  vertical-align: middle;
+}
+h3 {
+  text-decoration: underline;
+}
+.about {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#alex-profile {
+  height: 20%;
+  width: 20%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+}
+#linkedin {
+  height: 32px;
+  width: 32px;
+  border-radius: 3px;
+}
+#about-text {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+  font-size: 2rem;
+  font-family: 'Roboto Slab', serif;
+}
+.contact {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+input, textarea {
+  font-family: 'Roboto Condensed', sans-serif;
+  background: #000000;
+  color: #FFFFFF;
+  border: transparent !important;
+  border-radius: 5px;
+}
+input {
+  width: 30%;
+}
+textarea {
+  width: 90%;
+  margin-top: 1%;
+}
+.footer {
+  color: #000000;
+  background-color: #C0C0C0;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+.toe {
+  text-decoration: none;
+}
+.toe:link {
+  color: #000000;
+}
+.toe:visited {
+  color: #000000;
+}
+.toe:hover {
+  color: #404040;
+}
+.toe:focus {
+  color: #000000;
+}
+.toe:active {
+  color: #000000;
+}
